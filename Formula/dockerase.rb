@@ -1,13 +1,13 @@
 class Dockerase < Formula
     desc "Docker cleaning utility CLI"
     homepage "https://github.com/alessandrostone/dockerase"
-    version "0.2.0"
+    version "0.2.1"
     license "MIT"
 
     on_macos do
       on_arm do
-        url "https://github.com/alessandrostone/dockerase/archive/refs/tags/v0.2.0.tar.gz"
-        sha256 "447d8e71b966f6d8d87b103debb0a6005f084c8c89ba759a9e7ee9f309512a6d"
+        url "https://github.com/alessandrostone/dockerase/archive/refs/tags/v0.2.1.tar.gz"
+        sha256 "7fc4aaf13ddb5cdd5ff545e07514fe6bf0c93c48be05476b76b5eaa5791a21b1"
       end
       on_intel do
         url "https://github.com/alessandrostone/dockerase/releases/download/v0.1.0/dockerase-x86_64-apple-darwin.tar.gz"
