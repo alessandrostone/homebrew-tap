@@ -6,7 +6,7 @@ class Dockerase < Formula
 
     on_macos do
       on_arm do
-        url "https://github.com/alessandrostone/dockerase/archive/refs/tags/v0.2.1.tar.gz"
+        url "https://github.com/alessandrostone/dockerase/releases/download/v0.2.1/dockerase-aarch64-apple-darwin.tar.gz"
         sha256 "7fc4aaf13ddb5cdd5ff545e07514fe6bf0c93c48be05476b76b5eaa5791a21b1"
       end
       on_intel do
